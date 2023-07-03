@@ -6,8 +6,13 @@
 
 ---
 
-학습 주제별로 브랜치를 나눠 수업을 진행합니다.
-학습 자료는 해당 브랜치로 이동 후 확인할 수 있습니다.
+학습이 완료된 항복은 체크박스로 표시됩니다.
 
-1. JavaScript Core Branch [바로가기](https://www.naver.com)
-2. JavaScript DOM Branch [바로가기](https://www.naver.com)
+### Basic
+
+- [x] codeStructure [바로가기](https://www.naver.com)
+- [ ] Variable 바로가기
+- [ ] Strict Mode 바로가기
+- [ ] Global This 바로가기
+- [ ] Data Types 바로가기
+- [ ] Type Conversion 바로가기

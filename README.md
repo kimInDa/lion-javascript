@@ -19,5 +19,5 @@
 
 ### Operaations
 
-- [ ] Operations (기본 연산자) [바로가기](https://www.naver.com)
-- [ ] Operations (비교 연산자) [바로가기](https://www.naver.com)
+- [x] Operations (기본 연산자) [바로가기](https://github.com/kimInDa/lion-javascript/blob/01.core/client/chapter/core/07-1.operations.js)
+- [x] Operations (비교 연산자) [바로가기](https://github.com/kimInDa/lion-javascript/blob/01.core/client/chapter/core/07-2.operations.js)

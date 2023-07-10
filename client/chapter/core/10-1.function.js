@@ -17,7 +17,7 @@ function getRandomValue(){
 function calcPrice(
   priceA, 
   priceB,
-  priceC = getRandomValue(), 
+  priceC = getRandomValue(),  // 디폴트 parameter. 함수도 가능하다.
   priceD = getRandomValue()
   ){
     

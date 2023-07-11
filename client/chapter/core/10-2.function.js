@@ -160,9 +160,9 @@ movePage(
 
 
 // 즉시 실행 함수 (표현)식
-// Immediately Invoked Function Expression
+// Immediately Invoked Function Expression 
+// 이피(IIFE) 패턴
 let IIFE;
-
 
 // 변수의 보호
 // 은닉화 incapsulation(캡슐화)

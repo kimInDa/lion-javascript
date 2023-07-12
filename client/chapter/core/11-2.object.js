@@ -17,6 +17,8 @@ text = '멋쟁이 사자처럼 6기';
 
 let conversationTool = messenger;
 
+// 참조 복사 or 얕은 복사 or 깊은 복사
+
 // delete conversationTool.name;
 
 // 비교 (복사 vs. 참조)
@@ -86,6 +88,8 @@ let combinedCssMap = Object.assign({}, cssMapA, cssMapB)
 
 // 중첩된 프로퍼티에 객체를 포함하는 객체 복사
 // 얕은 복사 vs. 깊은 복사
+// 얕은 복사 : 객체 안의 객체는 복사해오지 못한다.(참조한다.)
+// 깊은 복사 : 객체 안의 객체까지 복사해온다.
 const containerStyles = {
   'min-height': '100vh',
   'max-width': {
@@ -100,7 +104,8 @@ const containerStyles = {
 let copyedContainerStyles = { ... containerStyles}; // 얕은 복사 : 같은 객체를 가리킨다.
 
 
-// 1. 깊은 복사 유틸리티 함수 : 재귀함수(나 자신을 내 안에서 다시 호출)
+// 1. 깊은 복사 유틸리티 함수
+// 재귀함수(나 자신을 내 안에서 다시 호출)
 function cloneDeep(object) {
   return Object.fromEntries(
     Object.entries(object).map(([key, value]) => {

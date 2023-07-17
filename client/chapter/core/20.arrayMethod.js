@@ -2,6 +2,13 @@
 /* Array's Methods                */
 /* ------------------------------ */
 
+// 값의 정확한 타입을 확인 하는 법(typeOf는 배열이나 null을 object로 반환)
+// 1. isArray()
+// 2. Object.prototype.toString.call(*[]*).slice(8,-1).toLowerCase()
+
+// map과 filter는 반드시 알고 있어야 한다!
+
+
 // Array.isArray
 // typeOf 로는 정확히 배열인지 알 수 없음. typeOf [] : object 로 나옴.
 

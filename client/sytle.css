@@ -1,9 +1,14 @@
-/* body {
+
+
+/* 
+body{
   height: 100vh;
-  display: flex;
+  display : flex;
   align-items: center;
-  justify-content: center;
-} */
+  justify-content: center
+}
+ */
+
 
 h1 {
   position: absolute;
@@ -11,3 +16,64 @@ h1 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+.container {
+
+}
+
+.container > div
+
+.container > div:nth-child(3){}
+
+
+
+
+
+nav{
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+}
+
+
+
+nav > ul{
+  list-style: none;
+  display:flex;
+  gap: 1rem;
+}
+
+
+
+
+nav > ul > li{
+
+}
+
+nav > ul > li > button.is-active{
+  background-color: orange;
+  transform: translateY(-5px);
+}
+
+nav > ul > li > button{
+  padding: 0.5rem;
+  cursor: pointer;
+  transition:all .5s;
+  border: none;
+}
+
+nav > ul > li:hover > button{
+  transform: translateY(-5px);
+}
+
+
+.first{
+  display: block;
+}
+
+
+
+
+
+

@@ -56,5 +56,22 @@
 - [ ] prototype (생성자 함수) [바로가기]()
 
 ## Closure
-
 - [ ] Closure (클로저) [바로가기]()
+- [ ] Closure (시나리오) [바로가기]()
+
+---
+## OptionalChainning & wrapper
+- [ ] OptionalChainning(옵셔널체이닝) [바로가기]()
+- [ ] Wrapper(wrapper object) [바로가기]()
+
+---
+## Number
+- [ ] Number(number Type) [바로가기]()
+---
+## String
+- [ ] String(string Type) [바로가기]()
+---
+## Array
+- [ ] Array(array Type) [바로가기]()
+---
+## 예외처리

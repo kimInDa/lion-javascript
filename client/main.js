@@ -2,23 +2,21 @@
 
 // 모듈 프로그래밍 -> js의 어려운 문법은 x 방법론
 
-// getNode 가져오기
+// 번들러의 힘
+// webpack vite
 
-import { getNode, getNodes } from "./lib/dom/getNode.js";
+import { getNode, clearContents, insertLast } from './lib/index.js';
 
 
-
-
-  // 1. input value 값 가져오기
-  // 2. 두 수의 합 더하기
-  // 3. 화면 출력하기
+// [page-1]
+// 1. input value 값 가져오기
+// 2. 두 수의 합 더하기
+// 3. 화면 출력하기
 
 
 const first = getNode('#firstNumber');
 const second = getNode('#secondNumber');
 const result = getNode('.result');
-
-
 
 
 function handleInput(){

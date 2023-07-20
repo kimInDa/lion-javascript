@@ -1,5 +1,5 @@
 
-// '.first'
+
 export function getNode(node){
   
   if(typeof node !== 'string'){

@@ -21,9 +21,10 @@ import { addClass, clearContents, copy, getNode, getRandom, insertLast, isNumeri
 // 3. gsap을 사용해서 shake 기능 구현
 // 4. ㄴ animation 모듈화 
 
-// [phase-4]📍
+// [phase-4]
 // 1. result 클릭 이벤트 바인딩
-// 2.
+// 2. result 클릭시 클립보드에 복사해주세요
+// 3. 재사용 가능한 함수로 만들어 주세요
 
 const submit = getNode('#submit');
 const nameField = getNode('#nameField');

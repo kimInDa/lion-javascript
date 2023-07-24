@@ -1,7 +1,4 @@
-console.log('hello js!');
 
-/* eslint no-unused-vars: 0 */
+import { diceAnimation } from "./lib/index.js";
 
-const a = 10;
-
-const b = 10;
+diceAnimation();

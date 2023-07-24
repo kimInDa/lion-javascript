@@ -7,7 +7,7 @@ const cube = getNode('#cube');
 
 
 let random;
-gsap.to(cube,{duration:1,rotationX:100,rotationY:-100,ease:'back(10)'});
+gsap.to(cube,{duration:1,rotationX:100,rotationY:-100,ease:'back(10)'}); // 창 키자마자 움직임
 
 
 export function diceAnimation (){

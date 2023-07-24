@@ -7,3 +7,4 @@ export * from './getNode.js';
 export * from './bindEvent.js';
 export * from './showAlert.js';
 export * from './clearContents.js';
+export * from './endScroll.js'

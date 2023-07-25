@@ -1,7 +1,13 @@
-console.log('hello js!');
 
-/* eslint no-unused-vars: 0 */
 
-const a = 10;
+import { xhr } from "./lib/index.js";
 
-const b = 10;
+// Promise
+
+// xhr.get('https://www.naver.com/')
+// .then((res)=>{
+// res
+// })
+// .catch((err)=>{
+//   err
+// })

@@ -1,13 +1,14 @@
 
 
-import { xhr } from "./lib/index.js";
+import { tiger } from "./lib/index.js";
 
-// Promise
+const data = tiger.get('https://jsonplaceholder.typicode.com/users');
 
-// xhr.get('https://www.naver.com/')
-// .then((res)=>{
-// res
-// })
-// .catch((err)=>{
-//   err
-// })
+const result = await data
+
+console.log(result.data);
+
+
+
+
+

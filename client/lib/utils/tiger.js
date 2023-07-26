@@ -78,3 +78,16 @@ response.data = await response.json() //^ 응답 -> 파싱
 userData = response.data
 by 정소이
 */
+
+/*
+const response = await fetch('https://pokeapi.co/api/v2/pokemon/30', )
+console.log(response); // 정보 x, 통신이 어떻게 이루어졌는지 결과를 반환
+
+// 실제 결과물을 얻는 과정
+if (response.ok) {
+  const data = await response.json()
+  console.log(data);
+}
+
+*/
+

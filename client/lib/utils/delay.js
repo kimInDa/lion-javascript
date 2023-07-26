@@ -129,6 +129,7 @@ const data = await delayA(); // 리턴값이 promise 객체이면 await도 async
 
 
 // async - 함수가 promise 객체를 반환 하도록, await 사용 할 수 있도록 하는 기능
+//       - function 앞에 async를 붙이면 항상 프라미스를 반환한다. return에 다른 값이 있으면 그 값을 '이행 상태'의 프라미스로 감싸 '이행된'프라미스를 반환한다.
 // await - 코드의 실행 흐름 제어 (멈춰) : promise에서 값이 떨어지기 전까지 멈춤
 //       - result의 값 가져오기(return 된 promise 객체에서 result값 가져오기)
 

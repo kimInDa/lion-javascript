@@ -18,11 +18,11 @@ function init(){
   })
 }
 
-function hadleDelete(){
-  deleteStorage()
-  textField.value = '';
-}
+// function hadleDelete(){
+//   deleteStorage()
+//   textField.value = '';
+// }
 
 textField.addEventListener('input',handleTextField)
 window.addEventListener('DOMContentLoaded',init)
-clearButton.addEventListener('click',hadleDelete)
+// clearButton.addEventListener('click',hadleDelete)
